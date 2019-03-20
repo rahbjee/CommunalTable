@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BCFEA10530A39F9A52935B8 /* Pods_CommunalTableUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB72136AD86735243DF43A3 /* Pods_CommunalTableUITests.framework */; };
 		5B81BB952241E8FA002CF277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B81BB942241E8FA002CF277 /* AppDelegate.swift */; };
 		5B81BB972241E8FA002CF277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B81BB962241E8FA002CF277 /* ViewController.swift */; };
 		5B81BB9A2241E8FA002CF277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B81BB982241E8FA002CF277 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		5B81BBA22241E8FD002CF277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B81BBA02241E8FD002CF277 /* LaunchScreen.storyboard */; };
 		5B81BBAD2241E8FD002CF277 /* CommunalTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B81BBAC2241E8FD002CF277 /* CommunalTableTests.swift */; };
 		5B81BBB82241E8FD002CF277 /* CommunalTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B81BBB72241E8FD002CF277 /* CommunalTableUITests.swift */; };
+		5B81BBC62241E985002CF277 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B81BBC52241E985002CF277 /* GoogleService-Info.plist */; };
+		6DF847000AAC0E267A05A80E /* Pods_CommunalTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4104A1B7947ADFE3271828FC /* Pods_CommunalTable.framework */; };
+		D57DAAA34CA502F5CAA93889 /* Pods_CommunalTableTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6AD16E5FA9B209459DF59C7 /* Pods_CommunalTableTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D73AAE70A9F5B8F438D6241 /* Pods-CommunalTableTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommunalTableTests.release.xcconfig"; path = "Target Support Files/Pods-CommunalTableTests/Pods-CommunalTableTests.release.xcconfig"; sourceTree = "<group>"; };
+		2803DF5555F37E3D67BE7CED /* Pods-CommunalTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommunalTable.debug.xcconfig"; path = "Target Support Files/Pods-CommunalTable/Pods-CommunalTable.debug.xcconfig"; sourceTree = "<group>"; };
+		34ABFF1050EA0AB0EFC862D6 /* Pods-CommunalTableTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommunalTableTests.debug.xcconfig"; path = "Target Support Files/Pods-CommunalTableTests/Pods-CommunalTableTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4104A1B7947ADFE3271828FC /* Pods_CommunalTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommunalTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B81BB912241E8FA002CF277 /* CommunalTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommunalTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B81BB942241E8FA002CF277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B81BB962241E8FA002CF277 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,12 @@
 		5B81BBB32241E8FD002CF277 /* CommunalTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommunalTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B81BBB72241E8FD002CF277 /* CommunalTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunalTableUITests.swift; sourceTree = "<group>"; };
 		5B81BBB92241E8FD002CF277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B81BBC52241E985002CF277 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9BB72136AD86735243DF43A3 /* Pods_CommunalTableUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommunalTableUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42F08010E071DC7921EA31C /* Pods-CommunalTableUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommunalTableUITests.debug.xcconfig"; path = "Target Support Files/Pods-CommunalTableUITests/Pods-CommunalTableUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9469EAA7F9D290EE973EED5 /* Pods-CommunalTableUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommunalTableUITests.release.xcconfig"; path = "Target Support Files/Pods-CommunalTableUITests/Pods-CommunalTableUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D6AD16E5FA9B209459DF59C7 /* Pods_CommunalTableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommunalTableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EC6F52B947FF524745CB3B /* Pods-CommunalTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommunalTable.release.xcconfig"; path = "Target Support Files/Pods-CommunalTable/Pods-CommunalTable.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DF847000AAC0E267A05A80E /* Pods_CommunalTable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D57DAAA34CA502F5CAA93889 /* Pods_CommunalTableTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BCFEA10530A39F9A52935B8 /* Pods_CommunalTableUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00D3CED164B47243E187B017 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4104A1B7947ADFE3271828FC /* Pods_CommunalTable.framework */,
+				D6AD16E5FA9B209459DF59C7 /* Pods_CommunalTableTests.framework */,
+				9BB72136AD86735243DF43A3 /* Pods_CommunalTableUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B81BB882241E8FA002CF277 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				5B81BBAB2241E8FD002CF277 /* CommunalTableTests */,
 				5B81BBB62241E8FD002CF277 /* CommunalTableUITests */,
 				5B81BB922241E8FA002CF277 /* Products */,
+				A6D0842594ECA7BD488C2BEF /* Pods */,
+				00D3CED164B47243E187B017 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +134,7 @@
 				5B81BB9E2241E8FD002CF277 /* Assets.xcassets */,
 				5B81BBA02241E8FD002CF277 /* LaunchScreen.storyboard */,
 				5B81BBA32241E8FD002CF277 /* Info.plist */,
+				5B81BBC52241E985002CF277 /* GoogleService-Info.plist */,
 				5B81BB9B2241E8FA002CF277 /* CommunalTable.xcdatamodeld */,
 			);
 			path = CommunalTable;
@@ -128,6 +158,20 @@
 			path = CommunalTableUITests;
 			sourceTree = "<group>";
 		};
+		A6D0842594ECA7BD488C2BEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2803DF5555F37E3D67BE7CED /* Pods-CommunalTable.debug.xcconfig */,
+				E0EC6F52B947FF524745CB3B /* Pods-CommunalTable.release.xcconfig */,
+				34ABFF1050EA0AB0EFC862D6 /* Pods-CommunalTableTests.debug.xcconfig */,
+				0D73AAE70A9F5B8F438D6241 /* Pods-CommunalTableTests.release.xcconfig */,
+				A42F08010E071DC7921EA31C /* Pods-CommunalTableUITests.debug.xcconfig */,
+				C9469EAA7F9D290EE973EED5 /* Pods-CommunalTableUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B81BBBC2241E8FD002CF277 /* Build configuration list for PBXNativeTarget "CommunalTable" */;
 			buildPhases = (
+				07CBBDDDB7208C9049AC71B3 /* [CP] Check Pods Manifest.lock */,
 				5B81BB8D2241E8FA002CF277 /* Sources */,
 				5B81BB8E2241E8FA002CF277 /* Frameworks */,
 				5B81BB8F2241E8FA002CF277 /* Resources */,
+				D7A10D311DC61862D8F2A561 /* [CP] Embed Pods Frameworks */,
+				232FCB74B610336D17E58BE9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B81BBBF2241E8FD002CF277 /* Build configuration list for PBXNativeTarget "CommunalTableTests" */;
 			buildPhases = (
+				966483EEA93716CDBB5C6B2B /* [CP] Check Pods Manifest.lock */,
 				5B81BBA42241E8FD002CF277 /* Sources */,
 				5B81BBA52241E8FD002CF277 /* Frameworks */,
 				5B81BBA62241E8FD002CF277 /* Resources */,
@@ -170,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B81BBC22241E8FD002CF277 /* Build configuration list for PBXNativeTarget "CommunalTableUITests" */;
 			buildPhases = (
+				F466E872FD59667D0EBE27AD /* [CP] Check Pods Manifest.lock */,
 				5B81BBAF2241E8FD002CF277 /* Sources */,
 				5B81BBB02241E8FD002CF277 /* Frameworks */,
 				5B81BBB12241E8FD002CF277 /* Resources */,
@@ -233,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B81BBA22241E8FD002CF277 /* LaunchScreen.storyboard in Resources */,
+				5B81BBC62241E985002CF277 /* GoogleService-Info.plist in Resources */,
 				5B81BB9F2241E8FD002CF277 /* Assets.xcassets in Resources */,
 				5B81BB9A2241E8FA002CF277 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +303,163 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07CBBDDDB7208C9049AC71B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommunalTable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		232FCB74B610336D17E58BE9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommunalTable/Pods-CommunalTable-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseEmailAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAnonymousAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseEmailAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommunalTable/Pods-CommunalTable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		966483EEA93716CDBB5C6B2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommunalTableTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7A10D311DC61862D8F2A561 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CommunalTable/Pods-CommunalTable-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommunalTable/Pods-CommunalTable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F466E872FD59667D0EBE27AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommunalTableUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B81BB8D2241E8FA002CF277 /* Sources */ = {
@@ -434,6 +641,7 @@
 		};
 		5B81BBBD2241E8FD002CF277 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2803DF5555F37E3D67BE7CED /* Pods-CommunalTable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +660,7 @@
 		};
 		5B81BBBE2241E8FD002CF277 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0EC6F52B947FF524745CB3B /* Pods-CommunalTable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +679,7 @@
 		};
 		5B81BBC02241E8FD002CF277 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34ABFF1050EA0AB0EFC862D6 /* Pods-CommunalTableTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +701,7 @@
 		};
 		5B81BBC12241E8FD002CF277 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D73AAE70A9F5B8F438D6241 /* Pods-CommunalTableTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +723,7 @@
 		};
 		5B81BBC32241E8FD002CF277 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42F08010E071DC7921EA31C /* Pods-CommunalTableUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +744,7 @@
 		};
 		5B81BBC42241E8FD002CF277 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9469EAA7F9D290EE973EED5 /* Pods-CommunalTableUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
